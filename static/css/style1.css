@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    font-family: "Hammersmith One";
+    background-color: #f8f8ff;
+}
+.mhead{
+    margin-bottom: 25px;
+    padding:5px;
+    margin-top: -15px;
+    height: 60px;
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: 2px solid  #d3d3d3;
+}
+.form{
+    width: 25%;
+    margin:auto;
+    background-color: #ffffff ;
+    box-shadow: 0 0 1cm 5px  #e7e7e7;
+    border-radius: 10px;
+    padding: 40px;
+}
+.head1{
+    font-weight:500; 
+    font-size: 28px;
+    color: black;
+    margin-bottom: 1px;
+    margin-top: 0px;
+}
+.head2{
+    font-weight: 100;
+    font-size:medium;
+    color: #808080;
+    
+}
+
+input{
+    width: 99%;
+    height: 40px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #fefefa;
+}   
+#submit{
+    width: 100%;
+    height: 45px;
+    background-color:#273be2;
+    color: #f8f8ff;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: medium;
+
+   &:hover{
+        background-color:#fb9902;
+        color: #242124;
+        border: 2px solid white;
+        transition-delay: 20ms;
+        font-size: large;
+    }
+    
+}
+.footer{
+    margin-top: 5%;
+    text-align: center;
+    font-size:small;
+    color: #808080;
+}

@@ -12,6 +12,7 @@ body{
     margin: auto;
 
 }
+
 nav{
     margin-top: -15px;
     display: flex;
@@ -57,9 +58,6 @@ nav button{
 .inputall input::placeholder{
     padding: 2px;
 }
-#eveText{
-    width: 50%;
-}
 .listall{
     width: 70%;
     margin: auto;
@@ -97,31 +95,6 @@ ul li{
         transition-delay: 50ms;
     }
 }
-.btnlist{
-    width: 6%;
-    padding: 2px;
-    margin: 3px;
-    margin-top: 10px;
-    border-radius: 50px;
-    background-color: #fb9902;
-    border: 2px solid #ffa500;
-    color: #faebd7;
-    font-weight: 700;
-    font-size: 15px;
-}
-ul li input{
-    padding: 5px;
-    margin: 5px;  
-    border-radius: 3px;
-    border: none;
-    background-color: #e5e4e2;
-    color: #777; 
-    border: 1px solid #e5e4e2 ;
-
-}
-
-
-
 .material-symbols-outlined {
     padding: 5px;
     height: 5px;
